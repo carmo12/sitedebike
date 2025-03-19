@@ -1,0 +1,136 @@
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.top-header a {
+    background-color: #df8f6b;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.top-header {
+    background-color: rgb(233, 171, 120);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(212, 197, 185);
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+
+  }
+  
+nav {
+    text-align: center;
+    font-size: 120%;
+}
+
+ img {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border: 5px solid rgb(190, 175, 160);
+    padding: 25px;
+    margin: 20px;
+  }
+
+  .logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.logo span {
+    color: #ff6600;
+}
+
+.carrossel {
+    position: relative;
+    width: 800px;  
+    margin: auto;
+    padding-left: 5%;
+    padding: 10%;
+    overflow: hidden;
+    border-radius: 10px;  
+}
+
+.carrossel-imagens {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+.promocao ptitulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.promocao p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.promocao ul li {
+    text-align: justify;
+}

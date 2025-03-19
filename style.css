@@ -1,0 +1,80 @@
+header {
+    background-color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header {
+    background-color: rgb(230, 173, 127);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(212, 197, 185);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 120%;
+}
+
+img {
+    background-color: white;
+    width: 300px;
+    border: 5px solid rgb(190, 175, 160);
+    padding: 25px;
+    margin: 20px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo span {
+    color: #ff6600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+.banner {
+    text-align: center;
+    font-size: 200%;
+}
+
+.produto1, .produto2, .produto3 {
+    text-align: justify;
+}
+
+.produto1 p, .produto2 p, .produto3 p {
+    font-weight: bold;
+}
